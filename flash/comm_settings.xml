@@ -1,0 +1,18 @@
+<properties>
+	<title>Device Settings</title>
+    <item type="subtitle" name="Information"/>
+    <item name="Model" 	type="none" 	source="external" func="GeneralModelName" id="GeneralModelName" />
+    <item name="Name" 		type="none" 	source="external"  func="ComunicationUnitName"	id="Unit"	/>
+    <item name="Serial Number" 		type="none" 	source="external" func="GeneralSerialNumber" id="GeneralSerialNumber"/>
+    <item name="MAC Address" 	type="none" 	source="external" func="ComunicationEthMAC"	id="MAC" />
+    <item name="Firmware Version" 	type="none" 	source="external" func="GeneralVersion"    id="GeneralVersion" />
+	<item name="DHCP" 	type="checkbox" 	source="external" func="ComunicationDHCP"    	id='dhcp'  	refreshAfterSet="true" />
+	<item name="IP Address" type="ip" 	source="external" func="ComunicationEthIp"   	id="IPaddress" />
+    <item name="Subnet Mask" 	type="text" 	source="external" func="ComunicationEthMask"   	id="Mask" />
+    <item name="Gateway" 	type="text" 	source="external" func="ComunicationEthGateway"	id="Gateway" />
+    <item name="TCP Port" 	type="text" 	source="external" func="ComunicationEthTCPPort"	id="TCPPort" />
+    <item name="UDP Port" 	type="text" 	source="external" func="ComunicationEthUDPPort"	id="UDPPort" />
+	<item name="" 	type="action" value="Save Changes" source="internal" func="SetNet" id="setnet"/>
+    <item name="Factory Reset" 	type="action" value="Reset" source="internal" func="FactoryReset" id="factory"/>
+    <item type="separator"/>
+</properties>

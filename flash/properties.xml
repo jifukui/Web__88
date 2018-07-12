@@ -1,0 +1,11 @@
+var _routing_actualOutput = 0;
+var _routing_actualInput = 0;
+var routing_debug_query_max=50;//GD
+var routing_debug_query_count = 0;//GD
+var routing_arc_options=0;//GD 0 is from ARC, 1 is from hdmi audio  
+var routing_rs232_options=0;//GD 0 is from rs232, 1 is from hdbt's rs232
+var jifukui_hdcp_echo_mode=0;
+var jifukui_edid_state=[0,0];
+var html_table_presets = function(){
+	var str = "<table><tr>";
+	str += "<td>Presets:</t

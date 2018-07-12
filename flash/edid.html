@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="black.css?version_number=5" type="text/css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" src="jquery-lig.min.js"></script>
+    <script type="text/javascript">
+        parent.edidscriptToLoadReties = 3;
+        function edidloaded()
+        {
+            $.ajaxSetup({
+                cache: false
+            });
+            $.getScript("/IframeEdid.js", function(){
+                loaded();
+            }).fail(function(){
+                parent.edidscriptToLoadReties--;
+                if(parent.edidscriptToLoadReties >= 0)
+                {
+                    edidloaded();
+                }
+                else
+                {
+                    console.log("load error ");
+                }
+                console.log("load edid error");
+            });
+        }
+    </script>
+</head>
+<body  style="background-color: #303030;">
+<div id="edidscrolldiv"><div id="jifukui">
+</div></div>
+</body>
+</html>

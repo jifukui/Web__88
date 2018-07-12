@@ -1,0 +1,112 @@
+/* This is the Welcome CSS file */
+
+
+body {
+ font-family: helvetica, arial, sans-serif;
+ font-size: 10pt;
+ color: black;
+ /*background: url("top.png") repeat-x white;*/
+ margin: 0 2em 0 2em;
+ padding: 0 1em 1em 1em;
+}
+
+p {
+ text-align: justify;
+ text-indent: 0.5em;
+}
+
+h1 {
+ font-size: 200%;
+ font-weight: bold;
+ font-style: italic;
+ color: #1B319D;
+ margin-bottom: 0;
+}
+
+h2 {
+ margin: 0 0 0.4em 0;
+ padding: 0.3em;
+ border: 0;
+ border-bottom: 1px solid #62698C;
+ border-right: 1px solid #62698C;
+ font-style:italic;
+ color: #1B319D;
+}
+
+div.body {
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+div#main {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 0 1em;
+}
+
+#wait_screen {
+ width: 640px; /* set to desired width in px or percent */
+ text-align: center; /* optionally you could use "justified" */
+ border: 0px; /* Changing this value will add lines around the centered area */
+ padding: 0;  
+ margin: 0 auto;   
+}
+
+#main {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 0 1em;
+}
+
+h1#title {
+ color: white;
+ font-size: 300%;
+ font-weight: bold;
+ font-style: italic;
+ margin: 0.5em;
+ padding: 8px;
+ clear: both;
+ text-align:center;
+ }
+
+#intro {
+  background: #FAFAFE;
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+ 
+.section {
+  background: #FAFAFE;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  height: 155px;
+}
+
+.btnInputSrc {
+	border: 2px solid green;
+	width:48px;
+	height:48px;
+}
+
+
+.progress { 
+	position:relative; 
+	width:400px; 
+	border: 1px solid #ddd; 
+	padding: 1px; 
+	border-radius: 3px; 
+}
+.bar { 
+	background-color: #B4F5B4; 
+	width:0%; 
+	height:20px; 
+	border-radius: 3px; 
+}
+
+.percent { 
+	position:absolute; 
+	display:inline-block; 
+	top:3px; 
+	left:48%; 
+}

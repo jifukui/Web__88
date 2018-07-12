@@ -1,0 +1,18 @@
+<device>
+<general>
+    <device value="VS-88UHD" />
+    <title value="Kramer VS-88UHD Controller" />
+    <characteristic Output="8" Input="8" HaveAudio="true"/>
+</general>
+<main>
+    <item name="Switching"		type="routing"		value="" />
+    <item name="Device Settings"  type="properties" 	value="comm_settings.xml" />
+    <!--<item name="Set and Recall"  type="setandrecall" 	value="" />-->
+    <item name="Password Settings"  type="password" 	value="" />
+    <item name="Timeout Settings"  type="timeout" 	value="" />
+    <item name="Auto Switch Settings"  type="audioswitch" 	value="" />
+    <item name="Step-in Settings"  type="stepin" 	value="" />
+    <item name="EDID Management"		    type="edid" 		value="" />
+    <item name="About Us"   	type="about" 		value="about.html" />
+</main>
+</device>

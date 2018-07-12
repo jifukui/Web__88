@@ -1,0 +1,8 @@
+<properties>
+	<title>General Options</title>
+	<item name="Color theme" type="list" source="internal" val="themeType"  func="chooseThemeList">
+		<option name="White" value="1" />
+		<option name="Black" value="2" />
+	</item>
+	<item name="Clear web options" 	value="CLEAR"	type="action" source="internal" func="fnc_clearWebOptions"/>	
+</properties>

@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<!--
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<meta http-equiv="Expires" content="-1" />
+-->
+
+<head>
+	<meta charset="utf-8"> 
+	<title>KCommander</title>
+	<link href="firmwareUpdate.css" rel="stylesheet" type="text/css" />
+	<script src="jquery-1.8.2.min.js"></script>
+	<script src="jquery.form.js"></script>	
+	<script src="httpCommunications.js"></script>
+	<script src="firmwareUpdate.js"></script>	
+</head>
+
+<body onload="init_page();">
+	
+	<div id="header">
+		<h1 id="title">KCommander</h1>
+	</div>
+
+	<div class="body">
+
+		<div id="main">
+
+			<div id="intro">
+				<p>In This page you can upload file/firmware to the device and send commands.</p>
+			</div>		
+
+			<div class="section">
+			
+				<h2>Commands Terminal</h2>
+				
+				<div>	
+					<br>
+					
+					<textarea id="CommandsOutput" cols="60" rows="20">
+					</textarea>
+				
+					<br>
+					
+					<div style="background-color:#ff9900;width:640px;">
+						<textarea id="CommandsInput" cols="60" rows="1"></textarea><button id = "btnSendEnteredCommand" onclick="sendEnteredCommand();">Send</button>					
+					</div>				
+				
+				</div>
+			
+				<br>
+				<br>
+
+				<h2>Files upload</h2>
+				
+				<form id="HttpCommUploadIFrame" action="firmwareUpdate.html" method="post" enctype="multipart/form-data">
+					<input type="file" id="HttpCommUploadFile" name="myfile"><br>
+					<input type="submit" id="HttpCommBtnUpload" value="Upload File to Server">
+				</form>				
+				
+				<div class="progress">
+					<div class="bar"></div >
+					<div class="percent">0%</div >
+				</div>				
+
+				<br>
+				
+<!--				
+				<div style="background-color:#ff9900;">
+					<p>Upload without library.</p>
+				   <FORM id="HttpCommUploadNoPlugin" METHOD="post" enctype="multipart/form-data" ACTION="firmwareUpdate.html">
+						<INPUT TYPE="file" NAME="Blank" VALUE="">
+						<INPUT TYPE="submit" VALUE="Upload">
+				   </FORM>			   
+			    </div>
+			    <br>
+-->
+
+				<div style="background-color:#ff9900;">
+					<p>Device state:</p>
+					<textarea id="txtBoxDeviceState" cols="60" rows="1">
+					</textarea>					
+			    </div>
+			    <br>
+				
+				<button onclick="changeResolution(2);">Resolution2 NoRetry</button>
+				<button onclick="changeResolution(35);">Resolution35 NoRetry</button>
+				
+				<button onclick="sendWaitResponseTest();">Send model? wait response</button>
+				<button onclick="window.location.reload(true);">Reload Page method 1</button>
+				<button onclick="location.href = location.href;">Reload Page method 2</button>
+				<button onclick="location.reload();">Reload Page method 3</button>
+				<button onclick="location.replace(location.href.replace(/\?.*$/, '') + '?' + Math.random());">Reload Page method 4</button>	
+				<!--<button onclick="sendUpgrade();">Send #UPGRADE</button>-->	
+				<br>
+			
+			</div>			
+			
+		</div>
+
+	</div>
+
+<!--	
+	<div id="statistics">
+		<p class="statistics_row" id="deviceTimeSync">0</p>
+		<p class="statistics_row" id="browserTimeSync">0</p>
+	</div>  
+-->
+	
+</body>
+
+</html>

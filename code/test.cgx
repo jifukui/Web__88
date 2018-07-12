@@ -1,0 +1,9 @@
+t <form>
+t <data>
+c f<value>%s</value>
+c g<sync_time>%u</sync_time>
+c h<state>%u,%u,%u,%u</state>
+c d<privilege>%d</privilege>
+t </data>
+t </form>
+.

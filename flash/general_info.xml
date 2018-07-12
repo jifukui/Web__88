@@ -1,0 +1,7 @@
+<properties>
+	<title>General Info</title>
+	<item name="Model name" 		type="none" 	source="external" func="GeneralModelName" id="GeneralModelName"	/>
+	<item name="Firmware version" 	type="none" 	source="external" func="GeneralVersion"    id="GeneralVersion" />
+	<item name="Serial number" 		type="none" 	source="external" func="GeneralSerialNumber" id="GeneralSerialNumber"/>	
+	<item name="Web version" 		type="none" 	source="internal" func="" value= "2.0.5" />	
+</properties>

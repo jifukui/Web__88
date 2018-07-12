@@ -1,0 +1,62 @@
+<div id='propertiesBox'>
+	<div id='contentBox'>
+			<div class='txtTitle' >Firmware Upgrade</div>
+			<div id='fu_selectFile'>
+			<form id="HttpCommUploadIFrame" method="post" enctype="multipart/form-data">
+				<table>
+						<tr >
+						<td width='100px'><h3>FILE</h3></td>	
+						<td >
+							<div id="fr_file_selected">Choose a file</div>
+						</td>
+					</tr>
+					<tr >
+						<td width='100px'><h3></h3></td>	
+						<td >
+							<div class='setButton' style='width: 205px;' onclick='frupdate_browsefile();'>BROWSE...</div>
+						</td>
+					</tr>
+					<tr>
+						<td><h3></h3></td>
+						<td><input type="submit" id="HttpCommBtnUpload" class="setButton" style='width: 205px;' value="START UPGRADE"></td>
+					</tr>	
+					<tr >
+						<td width='100px'><h3></h3></td>	
+						<td >
+							<input style = 'visibility: hidden;' type="file" id="HttpCommUploadFile" name="myfile" class="fr_input">
+						</td>
+					</tr>					
+				</table>
+			</form>
+			</div>
+			<div id='fu_showStatus'>
+			<table >
+				<tr>
+					<td></td>
+					<td id='fr_filename'  width='200px'></td>
+					<td ></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td width='200px' class='txtSubtitle' >Stage</td>
+					<td class='txtSubtitle' >Status</td>
+				</tr>
+				<tr>
+					<td><div id="fr_uploadImgId" class="iconsProcessIdle"/></td>
+					<td>Uploading File</td>					
+					<td id="fr_uploadId">idle</td>
+				</tr>
+				<tr>
+					<td><div id="fr_writingImgId" class="iconsProcessIdle"/></td>
+					<td>Writing firmware</td>					
+					<td id="fr_writingId">idle</td>
+				</tr>
+				<tr>
+					<td><div id="fr_resetImgId" class="iconsProcessIdle"/></td>
+					<td>Restart Device</td>					
+					<td id="fr_resetId">idle</td>
+				</tr>
+			</table>
+			</div>
+	</div>
+</div>

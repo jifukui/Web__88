@@ -1,0 +1,220 @@
+/*32*32*/
+.iconPen,.iconAudioFolowVideo,.iconAudioBreakAwayVideo,.iconMuteVideo, .iconSwitchVideo,.iconaudiofolowvideoForbid
+{
+    white-space:nowrap;
+	float: left;
+	width: 32px;
+	height: 32px;
+	background-image: url(icons.png);
+	background-repeat: no-repeat;	
+}
+
+/* icons 16x16 */
+.iconSwitchAV, .iconStatusSwithDevice,.iconStatusSwithDeviceDisabled, .iconHdcpEnabled,.iconHdcpDisabled,
+.iconsProcessIdle, .iconsProcessCurrent, .iconsProcessDone,
+.iconGreen, .iconRed, .iconLegacy, .iconFast, .iconUltrafast,.iconlistdown
+{
+	white-space:nowrap;
+	float: left;
+	width: 16px;
+	height: 16px;
+	background-image: url(icons.png); 
+	background-repeat: no-repeat;	
+}
+/*18*18*/
+.iconLock,.iconUnlock,.iconSwitchAudio,.iconMuteAudio
+{
+    white-space:nowrap;
+    float: left;
+    width: 18px;
+    height: 18px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+}
+/*19*19*/
+.icon_ProcessIdle,.icon_ProcessDone,.icon_ProcessCurrent,.icon_right,.icon_cross
+{
+    white-space:nowrap;
+    float: left;
+    width: 19px;
+    height: 19px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+}
+/*HDCP*/
+.iconInputContentDisableHDCP, .iconInputContentEnableHDCP, .iconInputAbilityDisableHDCP, .iconInputAbilityEnableHDCP, .iconOutputAbilityDisableHDCP, .iconOutputAbilityEnableHDCP
+{
+    white-space:nowrap;
+    float: left;
+    width: 39px;
+    height: 19px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+}
+.iconDrag
+{
+    white-space:nowrap;
+    float: left;
+    width: 45px;
+    height: 26px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+}
+.iconInputContentDisableHDCP, .iconInputContentEnableHDCP
+{
+    white-space:nowrap;
+    float: left;
+    width: 37px;
+    height: 19px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+}
+/* waring */
+.iconWaring {
+white-space:nowrap;
+	float: left;
+	width: 43px; 
+	height: 37px;
+	background-image: url(icons.png); 
+	background-repeat: no-repeat;	
+}
+.iconPatternRed, .iconPatternGreen, .iconPatternBlue, .iconPatternBlack, .iconPatternWhite, .iconPatternRamp, .iconPatternColour, .iconPatternChessboard
+{
+    white-space:nowrap;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+}
+.iconLogoKramer{
+    white-space:nowrap;
+    float: left;
+    width: 140px;
+    height: 140px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+}
+.icon_close,.icon_open
+{
+    white-space: nowrap;
+    float: left;
+    width:20px;
+    height:42px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+}
+.icon_closewindow
+{
+    white-space:nowrap;
+    float: left;
+    width: 12px;
+    height: 12px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+}
+.iconPresetRecall, .iconPresetSet
+{
+    white-space:nowrap;
+    float: left;
+    width: 45px;
+    height: 45px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+}
+.iconSave
+{
+    white-space:nowrap;
+    float: left;
+    width: 24px;
+    height: 24px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+}
+.iconSettings
+{
+    white-space:nowrap;
+    float: left;
+    width: 24px;
+    height: 24px;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+/* icons 12x12 */
+.iconsProcessIdle { background-position: -0px -163px;}
+.iconsProcessCurrent { background-position: -20px -163px;}
+.iconsProcessDone { background-position: -40px -163px;}
+
+
+.iconPatternRed{background-position: -166px -1px}
+.iconPatternGreen{background-position: -207px -1px}
+.iconPatternBlue{background-position: -248px -1px}
+.iconPatternRamp{background-position: -289px -1px}
+.iconPatternChessboard{background-position: -330px -1px}
+.iconPatternColour{background-position: -371px -1px}
+.iconPatternWhite{background-position: -412px -1px}
+.iconPatternBlack{background-position: -453px -1px}
+
+.iconAudioFolowVideo {background-position: -34px -1px}
+.iconaudiofolowvideoForbid{background-position: -535px -1px}
+.iconAudioBreakAwayVideo{background-position: -67px -1px}
+.iconSwitchAudio   {	background-position: -58px -254px;}
+.iconSwitchVideo   {	background-position: -133px -1px ;}
+.iconSwitchAV   	   {	background-position: -40px -1px;}
+.iconWaring   	   {	background-position: -119px -152px;}
+.iconMuteAudio {	background-position: -39px -254px;}
+.iconMuteVideo {	background-position: -100px -1px;}
+
+
+.iconStatusSwithDevice	{ background-position: -100px -25px; }
+.iconStatusSwithDeviceDisabled{ background-position: -121px -25px; }
+.iconHdcpEnabled   { background-position: -139px -25px; }
+.iconHdcpDisabled { background-position: -158px -25px; }
+.iconLogoKramer{ background-position: -1px -94px; }
+.iconPresetRecall 	{ background-position: -48px -273px; }
+.iconPresetSet		{ background-position: -1px -273px; }
+.iconSave   {background-position: -1px -319px}
+.iconSettings{background-position: -26px -319px}
+.iconLock   {background-position: -20px -254px}
+.iconUnlock {background-position: -1px -254px}
+.iconPen{background-position: -1px -1px}
+.iconGreen{background-position: -50px -77px}
+.iconRed{ background-position: -67px -77px}
+.iconLegacy{ background-position: -33px -77px}
+.iconFast{background-position:  -17px -77px}
+.iconUltrafast{background-position:  -1px -77px}
+.iconlistdown{background-position: -84px -77px}
+.icon_ProcessIdle{background-position: -1px -391px}
+.icon_ProcessDone{background-position: -21px -391px}
+.icon_ProcessCurrent{background-position: -41px -391px}
+.icon_right{background-position: -61px -391px}
+.icon_cross{background-position: -81px -391px}
+.icon_closewindow{background-position: -1px -344px}
+.mousePointer  { cursor: pointer }
+
+.mousePointer:active { 
+	opacity:.5;
+}
+
+.iconInputContentDisableHDCP    {background-position: -1px -235px}
+.iconInputContentEnableHDCP     {background-position: -39px -235px}
+.iconInputAbilityDisableHDCP    {background-position: -77px -235px}
+.iconInputAbilityEnableHDCP     {background-position: -117px -235px}
+.iconOutputAbilityDisableHDCP   {background-position: -157px -235px}
+.iconOutputAbilityEnableHDCP    {background-position: -197px -235px}
+.icon_open
+{
+    background-position: -22px -34px;
+    white-space:nowrap;
+    float:left;
+    z-index: 2;
+}
+.icon_close
+{
+    background-position: -1px -34px;
+    white-space:nowrap;
+    float:left;
+    z-index: 2;
+}
+.iconDrag{background-position: -1px -357px}
